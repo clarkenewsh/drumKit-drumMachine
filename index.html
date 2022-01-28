@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Drum Kit Challenge</title>
+</head>
+<body>
+    <!-- Audio  -->
+    <audio id="boom" src="sounds/boom.wav" type="audio/wav"></audio>
+    <audio id="clap" src="sounds/clap.wav" type="audio/wav"></audio>
+    <audio id="hihat" src="sounds/hihat.wav" type="audio/wav"></audio>
+    <audio id="kick" src="sounds/kick.wav" type="audio/wav"></audio>
+    <audio id="openhat" src="sounds/openhat.wav" type="audio/wav"></audio>
+    <audio id="ride" src="sounds/ride.wav" type="audio/wav"></audio>
+    <audio id="snare" src="sounds/snare.wav" type="audio/wav"></audio>
+    <audio id="tink" src="sounds/tink.wav" type="audio/wav"></audio>
+    <audio id="tom" src="sounds/tom.wav" type="audio/wav"></audio>
+
+    
+    <h1>Press keys to play the drumkit &#129345; </h1>
+    <main>
+        <div class="drum-key">
+            <p>A</p>
+            <p>Boom</p>  
+        </div>
+        <div class="drum-key">
+            <p>S</p>
+            <p>Clap</p>
+        </div>
+        <div class="drum-key">
+            <p>D</p>
+            <p>HiHat</p>
+        </div>
+        <div class="drum-key">
+            <p>F</p>
+            <p>Kick</p>
+        </div>
+        <div class="drum-key">
+            <p>G</p>
+            <p>Openhat</p>
+        </div>
+        <div class="drum-key">
+            <p>H</p>
+            <p>Ride</p>
+        </div>
+        <div class="drum-key">
+            <p>J</p>
+            <p>Snare</p>
+        </div>
+        <div class="drum-key">
+            <p>K</p>
+            <p>Tink</p>
+        </div>
+        <div class="drum-key">
+            <p>L</p>
+            <p>Tom</p>
+        </div>
+    </main>
+
+    <!-- Drum machine audio -->
+    <audio id="bass-loop" src="sounds/bass-loop.wav" type="audio/wav"></audio>
+    <audio id="analogue-drums" src="sounds/analogue-drums.wav" type="audio/wav"></audio>
+    <audio id="perc-drums" src="sounds/perc-drum.wav" type="audio/wav"></audio>
+    <audio id="snare-drums" src="sounds/snare-drums.wav" type="audio/wav"></audio>
+
+    <div id="drum-machine-container">
+        <h2>Click drum pads to play the drum machine &#128266; </h2>
+        <section id="akai-machine">
+            <div id="logo">AKAI</div>
+            <div id="screen"></div>
+            <div id="pad-1" class="pads"></div>
+            <div id="pad-2"></div>
+            <div id="pad-3"></div>
+            <div id="pad-4"></div>
+            <div id="pad-5"></div>
+            <div id="pad-6"></div>
+            <div id="pad-7"></div>
+            <div id="pad-8"></div>
+            <div id="pad-9"></div>
+            <div id="pad-10"></div>
+            <div id="pad-11"></div>
+            <div id="pad-12"></div>
+            <div id="pad-13"></div>
+            <div id="pad-14"></div>
+            <div id="pad-15"></div>
+            <div id="pad-16"></div>
+            <div id="pad-17"></div>
+            <div id="pad-18"></div>
+            <div id="pad-19"></div>
+            <div id="pad-20"></div>
+            <div id="mixer-1"></div>
+            <div id="mixer-2"></div>
+            <div id="mixer-3"></div>
+            <div id="mixer-4"></div>
+            <div id="yellow-btn-1"></div>
+            <div id="yellow-btn-2"></div>
+            <div id="yellow-btn-3"></div>
+            <div id="yellow-btn-4"></div>
+            <div id="yellow-btn-5"></div>
+            <div id="yellow-btn-6"></div>
+            <div id="yellow-btn-7"></div>
+            <div id="yellow-btn-8"></div>
+            <div id="big-mixer"></div>
+        </section>
+    </div>
+
+    <script src="drumKit.js"></script>
+</body>
+</html>
